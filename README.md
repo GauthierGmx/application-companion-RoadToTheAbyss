@@ -3,7 +3,23 @@ Road to the Abyss
 
 Jeu de plateau conçu par :
 
-Lucas GONZALEZ -
+Lucas GONZALEZ - Concepteur du jeu
+
+Camille NAEGELEN - Concepteur du jeu
+
+Simon BRAUD - Concepteur du jeu
+
+Teresa DOMINGUEZ - Concepteur du jeu
+
+Liza BIHAN - Concepteur du jeu
+
+Tatiana BASTIER - Concepteur du jeu
+
+Yohan LAHON - Concepteur du jeu
+
+Benjamin PIERRE - Concepteur du jeu
+
+Nathan PRADELLE - Concepteur du jeu
 
 Gauthier GOUMEAUX - Développeur de l'application
 
