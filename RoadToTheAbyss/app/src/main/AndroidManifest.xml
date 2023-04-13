@@ -12,7 +12,22 @@
         android:theme="@style/Theme.RoadToTheAbyss"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".EnJeuHistoireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PartieRapideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReglesVehiculeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReglesCartesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuReglesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vue.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

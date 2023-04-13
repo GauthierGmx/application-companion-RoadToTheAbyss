@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vue.MainActivity">
+    tools:context=".vue.histoire.MenuHistoireActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -16,29 +16,24 @@
         tools:src="@tools:sample/backgrounds/scenic" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="449dp"
+            android:layout_height="294dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Road to the abyss"
+                android:text="Mode Histoire"
                 android:textSize="48sp" />
         </LinearLayout>
 
@@ -46,37 +41,47 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
             android:orientation="vertical">
-
-            <Button
-                android:id="@+id/bHistoire"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mode histoire"
-                android:textSize="20sp" />
 
             <Space
                 android:layout_width="1dp"
-                android:layout_height="75dp" />
+                android:layout_height="150dp" />
 
-            <Button
-                android:id="@+id/bPartieRapide"
-                android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Partie rapide"
-                android:textSize="20sp" />
+                android:gravity="center"
+                android:text="Veuillez saisir le nombre de joueur :"
+                android:textSize="34sp" />
 
             <Space
-                android:layout_width="5dp"
-                android:layout_height="75dp" />
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
-            <Button
-                android:id="@+id/bRegles"
+            <EditText
+                android:id="@+id/editTextTextPersonName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Règles"
-                android:textSize="20sp" />
+                android:layout_gravity="center"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:text="Nombre de joueur :" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="150dp" />
+
+            <Button
+                android:id="@+id/bConfirmationHistoire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Confirmer" />
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
