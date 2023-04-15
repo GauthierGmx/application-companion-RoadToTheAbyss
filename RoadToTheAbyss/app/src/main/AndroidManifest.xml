@@ -12,19 +12,22 @@
         android:theme="@style/Theme.RoadToTheAbyss"
         tools:targetApi="31">
         <activity
-            android:name=".EnJeuHistoireActivity"
+            android:name=".vue.histoire.EnJeuHistoireActivity"
             android:exported="false" />
         <activity
-            android:name=".PartieRapideActivity"
+            android:name=".vue.histoire.MenuHistoireActivity"
             android:exported="false" />
         <activity
-            android:name=".ReglesVehiculeActivity"
+            android:name=".vue.partieRapide.PartieRapideActivity"
             android:exported="false" />
         <activity
-            android:name=".ReglesCartesActivity"
+            android:name=".vue.regles.ReglesVehiculeActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuReglesActivity"
+            android:name=".vue.regles.ReglesCartesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vue.regles.MenuReglesActivity"
             android:exported="false" />
         <activity
             android:name=".vue.MainActivity"
