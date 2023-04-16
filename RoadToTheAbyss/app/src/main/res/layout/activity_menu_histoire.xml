@@ -66,10 +66,10 @@
                 android:layout_gravity="center"
                 android:ems="10"
                 android:gravity="center"
+                android:hint="4"
                 android:inputType="textPersonName"
                 android:minWidth="48dp"
-                android:minHeight="48dp"
-                android:text="Nombre de joueur :" />
+                android:minHeight="48dp" />
 
             <Space
                 android:layout_width="1dp"

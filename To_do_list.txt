@@ -1,4 +1,11 @@
-Faire un compteur
-Créer un menu avec bouton histoire, bouton partie rapide et bouton règlement
 Afficher les cartes dans le règlement
-Gérer le nombre de joueur (et donc de compteur) 6 joueur max
+Gérer le nombre de joueur (et donc de compteur)
+	2 joueur min
+	6 joueur max
+Gérer la modification du bouton de son
+	Si cliqué, couper le son et changer l'image en
+	Si cliqué et son déjà coupé, remettre le son et changer l'image
+Rajouter un bouton pour le menu d'accueil
+	Mettre un avertissement si en partie ?
+
+APK v1 - 16/04/2023
