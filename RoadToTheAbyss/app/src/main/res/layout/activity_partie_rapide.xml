@@ -14,7 +14,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -24,14 +25,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView5"
@@ -41,6 +34,133 @@
                 android:gravity="center"
                 android:text="Partie rapide"
                 android:textSize="48sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="200dp" />
+
+            <android.support.v7.widget.GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:columnCount="3">
+
+                <TextView
+                    android:id="@+id/lJoueur1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joueur 1"
+                    android:textSize="24sp"
+                    app:layout_column="1"
+                    app:layout_gravity="center"
+                    app:layout_row="0"
+                    tools:layout_conversion_absoluteHeight="19dp"
+                    tools:layout_conversion_absoluteWidth="55dp"
+                    tools:layout_editor_absoluteX="88dp"
+                    tools:layout_editor_absoluteY="115dp" />
+
+                <TextView
+                    android:id="@+id/lJoueur2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joueur 2"
+                    android:textSize="24sp"
+                    app:layout_column="1"
+                    app:layout_gravity="center"
+                    app:layout_row="4"
+                    tools:layout_conversion_absoluteHeight="19dp"
+                    tools:layout_conversion_absoluteWidth="55dp"
+                    tools:layout_editor_absoluteX="88dp"
+                    tools:layout_editor_absoluteY="183dp" />
+
+                <Button
+                    android:id="@+id/bMoinsJ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    app:layout_column="0"
+                    app:layout_gravity="center"
+                    app:layout_row="1"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="88dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="135dp" />
+
+                <Button
+                    android:id="@+id/bPlusJ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    app:layout_column="2"
+                    app:layout_gravity="center"
+                    app:layout_row="1"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="88dp"
+                    tools:layout_editor_absoluteX="146dp"
+                    tools:layout_editor_absoluteY="135dp" />
+
+                <Button
+                    android:id="@+id/bMoinsJ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    app:layout_column="0"
+                    app:layout_gravity="center"
+                    app:layout_row="5"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="88dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="202dp" />
+
+                <Button
+                    android:id="@+id/bPlusJ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    app:layout_column="2"
+                    app:layout_gravity="center"
+                    app:layout_row="5"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="88dp"
+                    tools:layout_editor_absoluteX="146dp"
+                    tools:layout_editor_absoluteY="270dp" />
+
+                <TextView
+                    android:id="@+id/lScoreJ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="24sp"
+                    app:layout_column="1"
+                    app:layout_gravity="center"
+                    app:layout_row="1"
+                    tools:layout_conversion_absoluteHeight="19dp"
+                    tools:layout_conversion_absoluteWidth="58dp"
+                    tools:layout_editor_absoluteX="88dp"
+                    tools:layout_editor_absoluteY="149dp" />
+
+                <TextView
+                    android:id="@+id/lScoreJ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="24sp"
+                    app:layout_column="1"
+                    app:layout_gravity="center"
+                    app:layout_row="5"
+                    tools:layout_conversion_absoluteHeight="19dp"
+                    tools:layout_conversion_absoluteWidth="58dp"
+                    tools:layout_editor_absoluteX="88dp"
+                    tools:layout_editor_absoluteY="216dp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+            </android.support.v7.widget.GridLayout>
         </LinearLayout>
 
     </LinearLayout>
